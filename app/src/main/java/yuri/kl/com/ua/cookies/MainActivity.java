@@ -21,10 +21,9 @@ public class MainActivity extends AppCompatActivity {
     public void eatCookie(View view) {
         // TODO: Find a reference to the ImageView in the layout. Change the image.
         ImageView relaceImage = (ImageView) findViewById(R.id.android_cookie_image_view);
-        relaceImage.setImageResource(R.drawable.cat);
+        relaceImage.setImageResource(R.drawable.after_cookie);
 
         // TODO: Find a reference to the TextView in the layout. Change the text.
-        // Инициализируем компонент
         TextView replaceText = (TextView)findViewById(R.id.status_text_view);
         replaceText.setText("Наелся!");
     }
